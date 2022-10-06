@@ -17,8 +17,8 @@ const spaceTravelers = () => {
 					alt='/'
 				/>
 				<div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-					<h2 className='py-2'>Netflix App</h2>
-					<h3>React JS / Tailwind / Firebase</h3>
+					<h2 className='py-2'>Space Travelers App</h2>
+					<h3>React JS / Redux / JavaScript / CSS</h3>
 				</div>
 			</div>
 
@@ -40,7 +40,7 @@ const spaceTravelers = () => {
 						<button className='px-8 py-2 mt-4 mr-8'>Code</button>
 					</a>
 					<a
-						href='https://space-traveller.netlify.app/dragons/'
+						href='https://space-traveller.netlify.app'
 						target='_blank'
 						rel='noreferrer'
 					>

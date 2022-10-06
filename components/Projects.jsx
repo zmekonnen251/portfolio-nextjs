@@ -5,6 +5,7 @@ import tibebImg from '../public/assets/projects/tibeb.png';
 import covid19Img from '../public/assets/projects/covid19.gif';
 import spacetravelersImg from '../public/assets/projects/spacetravelers.png';
 import bookstoreImg from '../public/assets/projects/bookstore.png';
+import mentorbookingImg from '../public/assets/projects/mentorbooking.png';
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {
@@ -20,7 +21,7 @@ const Projects = () => {
 						title='Tibebe Frontend Bootcamp'
 						backgroundImg={tibebImg}
 						projectUrl='/tibeb'
-						tech='React JS'
+						tech='HTML/CSS'
 					/>
 					<ProjectItem
 						title='Covid19 Statistics App'
@@ -38,7 +39,14 @@ const Projects = () => {
 						title='Bookstore CMS'
 						backgroundImg={bookstoreImg}
 						projectUrl='/bookstore'
-						tech='Next JS'
+						tech='React JS'
+					/>
+
+					<ProjectItem
+						title='Mentor Booking App'
+						backgroundImg={mentorbookingImg}
+						projectUrl='/mentorbooking'
+						tech='Ruby on Rails / React JS'
 					/>
 				</div>
 			</div>
