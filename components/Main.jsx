@@ -2,7 +2,13 @@ import Link from 'next/link';
 import React from 'react';
 import { AiOutlineMail } from 'react-icons/ai';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
-import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
+import {
+	FaGithub,
+	FaLinkedinIn,
+	FaAngellist,
+	FaMedium,
+	FaTwitter,
+} from 'react-icons/fa';
 
 const Main = () => {
 	return (
@@ -20,7 +26,7 @@ const Main = () => {
 						I&apos;m focused on building responsive full-stack web applications
 						while learning a new technologies.
 					</p>
-					<div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
+					<div className='flex items-center justify-between max-w-[500px] m-auto py-4'>
 						<a
 							href='https://www.linkedin.com/in/zelalem-g-mekonnen/'
 							target='_blank'
@@ -39,6 +45,34 @@ const Main = () => {
 								<FaGithub />
 							</div>
 						</a>
+						<a
+							href='https://angel.co/u/zelalem-getachew-mekonnen'
+							target='_blank'
+							rel='noreferrer'
+						>
+							<div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+								<FaAngellist />
+							</div>
+						</a>
+						<a
+							href='https://medium.com/@mekonnen.zelalem251'
+							target='_blank'
+							rel='noreferrer'
+						>
+							<div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+								<FaMedium />
+							</div>
+						</a>
+						<a
+							href='https://twitter.com/mek_zela'
+							target='_blank'
+							rel='noreferrer'
+						>
+							<div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+								<FaTwitter />
+							</div>
+						</a>
+
 						<Link href='/#contact'>
 							<div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
 								<AiOutlineMail />
