@@ -6,6 +6,7 @@ import covid19Img from '../public/assets/projects/covid19.gif';
 import spacetravelersImg from '../public/assets/projects/spacetravelers.png';
 import bookstoreImg from '../public/assets/projects/bookstore.png';
 import mentorbookingImg from '../public/assets/projects/mentorbooking.png';
+import recipeImg from '../public/assets/projects/recipe.png';
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {
@@ -47,6 +48,13 @@ const Projects = () => {
 						backgroundImg={mentorbookingImg}
 						projectUrl='/mentorbooking'
 						tech='Ruby on Rails / React JS'
+					/>
+
+					<ProjectItem
+						title='Recipe App'
+						backgroundImg={recipeImg}
+						projectUrl='/recipe'
+						tech='Ruby on Rails'
 					/>
 				</div>
 			</div>
