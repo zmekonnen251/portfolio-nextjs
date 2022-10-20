@@ -9,26 +9,26 @@ import ContactImg from '../public/assets/contact.jpg';
 
 const Contact = () => {
 	return (
-		<div id='contact' className='w-full lg:h-screen pt-[2rem]'>
-			<div className='max-w-[1240px] m-auto px-2 py-16 w-full '>
-				<p className='text-xl tracking-widest uppercase text-[#5651e5]'>
+		<div id='contact' className='w-full pt-[2rem]'>
+			<div className='max-w-[1240px] m-auto px-2 py-16 w-full  '>
+				<h2 className='text-xl text-center tracking-widest uppercase text-[#5651e5]'>
 					Contact
-				</p>
-				<h2 className='py-4'>Get In Touch</h2>
-				<div className='grid lg:grid-cols-5 gap-8'>
+				</h2>
+				<h2 className='py-4 text-center'>Get In Touch</h2>
+				<div className='grid lg:grid-cols-5 gap-8 box-border'>
 					{/* left */}
-					<div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4'>
-						<div className='lg:p-4 h-full '>
+					<div className='h-fit col-span-3 lg:col-span-2 w-full shadow-xl shadow-gray-400 rounded-xl p-4'>
+						<div className='lg:p-4 box-content'>
 							<div>
 								<Image
-									className='rounded-xl hover:scale-105 ease-in duration-300'
+									className=' rounded-xl hover:scale-105 ease-in duration-300 width-[50%] h-[50%] object-cover'
 									src={ContactImg}
 									alt='/'
 								/>
 							</div>
 							<div>
-								<h2 className='py-2'>Clint Briley</h2>
-								<p>Front-End Developer</p>
+								<h2 className='py-2'>Zelalem Mekonnen</h2>
+								<p>Full-stack Developer</p>
 								<p className='py-4'>
 									I am available for freelance or full-time positions. Contact
 									me and let&apos;s talk.
@@ -55,10 +55,11 @@ const Contact = () => {
 											<FaGithub />
 										</div>
 									</a>
-
-									<div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-										<AiOutlineMail />
-									</div>
+									<a href='mailto:mekonnen.zelalem251@gmail.com'>
+										<div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+											<AiOutlineMail />
+										</div>
+									</a>
 									<Link href='/resume'>
 										<a>
 											<div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
@@ -72,10 +73,10 @@ const Contact = () => {
 					</div>
 
 					{/* right */}
-					<div className='col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4'>
-						<div className='p-4'>
+					<div className='h-full col-span-3 w-full shadow-xl shadow-gray-400 rounded-xl lg:p-2'>
+						<div className='p-2'>
 							<form
-								action='https://getform.io/f/08ebcd37-f5b5-45be-8c13-714f011ce060'
+								action='https://getform.io/f/41fba76e-e7e1-4347-871d-0f2e05eafe20'
 								method='POST'
 								encType='multipart/form-data'
 							>
@@ -118,12 +119,12 @@ const Contact = () => {
 								<div className='flex flex-col py-2'>
 									<label className='uppercase text-sm py-2'>Message</label>
 									<textarea
-										className='border-2 rounded-lg p-3 border-gray-300'
-										rows='10'
+										className='border-2 rounded-lg p-2 border-gray-300'
+										rows='5'
 										name='message'
 									></textarea>
 								</div>
-								<button className='w-full p-4 text-gray-100 mt-4'>
+								<button className='w-full p-4 text-gray-100 mt-6'>
 									Send Message
 								</button>
 							</form>

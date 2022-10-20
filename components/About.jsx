@@ -1,7 +1,6 @@
-import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import AboutImg from '../public/assets/about.jpg';
+// import AboutImg from '../public/assets/about.jpg';
 
 const About = () => {
 	return (
@@ -9,13 +8,12 @@ const About = () => {
 			id='about'
 			className='w-full md:h-screen p-2 flex flex-col items-center py-[7rem]'
 		>
-			<p className='text-center uppercase text-xl tracking-widest text-[#5651e5]'>
+			<h2 className='text-center uppercase text-xl tracking-widest text-[#5651e5]'>
 				About
-			</p>
+			</h2>
 			<h2 className='text-center py-4'>Who I Am</h2>
 			<div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
 				<div className='col-span-2'>
-					<p className='py-2 text-gray-600'>I am not your average developer</p>
 					<p className='py-2 text-gray-600'>
 						I&#39;m a Full-stack Developer with a track record of working well
 						with other devs. Electrical and computer engineering was my major at
@@ -39,24 +37,16 @@ const About = () => {
 							front-end development while also working on projects using HTML,
 							CSS, JavaScript, React, and Redux.
 						</li>
-						{/* <li>
-							Worked on a team of 4 to build a full-stack application using
-							React, Redux, and Ruby on Rails.
-						</li>
-						<li>
-							While volunteering at Meles Zenawi Foundation to teach high school
-							students about fundamental programming using Python, computer
-							science, and algorithms, I gained experience as a course
-							instructor.
-						</li> */}
+
 						<li>
 							I completed my undergraduate degree in a highly stressful
 							environment.
 						</li>
 						<li>My GPA is also above 3.0.</li>
 						<li>
-							If you need a completely remote front-end (react/redux) developer,
-							let&#39;s meet and talk. My email address is ,
+							If you need a completely remote Front-end (React/Redux) and
+							Back-end (NodeJs,Ruby on Rails) developer, let&#39;s meet and
+							talk. My email address is ,
 							<a
 								className='text-[blue] underline inline-block pl-1'
 								href='mailto:mekonnen.zelalem251@gmail.com'
@@ -72,8 +62,11 @@ const About = () => {
 						</p>
 					</Link>
 				</div>
-				<div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
-					<Image src={AboutImg} className='rounded-xl' alt='/' />
+				<div className='w-full h-auto m-auto mt-0 shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
+					<img
+						src='https://cr-ss-service.azurewebsites.net/api/ScreenShot?widget=summary&username=zmekonnen251&badges=3&show-avatar=true&style=--header-bg-color:%23000;--border-radius:10px;--avatar-size:130px'
+						alt='zmekonnen251'
+					/>
 				</div>
 			</div>
 		</div>
