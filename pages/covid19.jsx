@@ -41,7 +41,7 @@ const covid19 = () => {
 						<button className='px-8 py-2 mt-4 mr-8'>Code</button>
 					</a>
 					<a
-						href='https://covidstatupdate.netlify.app/'
+						href='https://covid19-statsapp.netlify.app/'
 						target='_blank'
 						rel='noreferrer'
 					>
