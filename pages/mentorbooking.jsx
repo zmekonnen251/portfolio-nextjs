@@ -1,10 +1,10 @@
 import Image from 'next/image';
 import React from 'react';
-import tibebImg from '../public/assets/projects/tibeb.png';
+import mentorbookingImg from '../public/assets/projects/mentorbooking.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
-const tibeb = () => {
+const mentorBooking = () => {
 	return (
 		<div className='w-full'>
 			<div className='w-screen h-[50vh] relative'>
@@ -13,12 +13,12 @@ const tibeb = () => {
 					className='absolute z-1'
 					layout='fill'
 					objectFit='cover'
-					src={tibebImg}
+					src={mentorbookingImg}
 					alt='/'
 				/>
 				<div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-					<h2 className='py-2'>Tibe Front-end Bootcamp Landing page</h2>
-					<h3>HTML / CSS / JavaScript</h3>
+					<h2 className='py-2'>Mentor Booking App</h2>
+					<h3>Ruby on Rails / postgreSql / React JS / Redux / CSS</h3>
 				</div>
 			</div>
 
@@ -27,23 +27,20 @@ const tibeb = () => {
 					<p>Project</p>
 					<h2>Overview</h2>
 					<p>
-						The project is a capstone project for Module-1(portal). I customized
-						the design to a Bootcamp website called Tibeb Front-End BootCamp.
-						The name &quot;Tibeb&quot; is an Amharic word and it means wisdom. I
-						used it as an opportunity to practice the skills that I got in the
-						last four weeks. since the capstone project mimics the real-world
-						scenario it helped me a lot to know what the real-world projects
-						will be.
+						This app is aim to connect mentor and mentee from around the world,
+						to make software development journey easier for the newbies
+						developer by getting tips, ideas and guide from experience software
+						developer (mentor).
 					</p>
 					<a
-						href='https://github.com/zmekonnen251/Tibeb-FrontEnd-Bootcamp'
+						href='https://github.com/zmekonnen251/Mentor-Booking-App-Backend'
 						target='_blank'
 						rel='noreferrer'
 					>
 						<button className='px-8 py-2 mt-4 mr-8'>Code</button>
 					</a>
 					<a
-						href='https://zmekonnen251.github.io/Tibeb-FrontEnd-Bootcamp/src//'
+						href='https://mentorbooking.netlify.app/'
 						target='_blank'
 						rel='noreferrer'
 					>
@@ -55,16 +52,31 @@ const tibeb = () => {
 						<p className='text-center font-bold pb-2'>Technologies</p>
 						<div className='grid grid-cols-3 md:grid-cols-1'>
 							<p className='text-gray-600 py-2 flex items-center'>
-								<RiRadioButtonFill className='pr-1' /> HTML
+								<RiRadioButtonFill className='pr-1' /> Ruby on Rails
 							</p>
 							<p className='text-gray-600 py-2 flex items-center'>
-								<RiRadioButtonFill className='pr-1' /> CSS
+								<RiRadioButtonFill className='pr-1' /> Ruby
+							</p>
+							<p className='text-gray-600 py-2 flex items-center'>
+								<RiRadioButtonFill className='pr-1' /> postgreSql
+							</p>
+							<p className='text-gray-600 py-2 flex items-center'>
+								<RiRadioButtonFill className='pr-1' /> React
+							</p>
+							<p className='text-gray-600 py-2 flex items-center'>
+								<RiRadioButtonFill className='pr-1' /> Redux
 							</p>
 							<p className='text-gray-600 py-2 flex items-center'>
 								<RiRadioButtonFill className='pr-1' /> Javascript
 							</p>
 							<p className='text-gray-600 py-2 flex items-center'>
+								<RiRadioButtonFill className='pr-1' /> CSS
+							</p>
+							<p className='text-gray-600 py-2 flex items-center'>
 								<RiRadioButtonFill className='pr-1' /> GitHub
+							</p>
+							<p className='text-gray-600 py-2 flex items-center'>
+								<RiRadioButtonFill className='pr-1' /> Rest API
 							</p>
 						</div>
 					</div>
@@ -77,4 +89,4 @@ const tibeb = () => {
 	);
 };
 
-export default tibeb;
+export default mentorBooking;
