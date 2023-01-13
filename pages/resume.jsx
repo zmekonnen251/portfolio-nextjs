@@ -77,15 +77,15 @@ const resume = () => {
 					</div>
 				</div>
 				<p>
-					Analytical, innovative, and motivated web development professional
-					with experience in customer service, team leadership, and
-					organizational effectiveness in fast-paced and challenging
-					environments. Adept at developing strategies and driving streamlined
-					operations. Diverse analytical skills, team collaboration, and
-					relationship building. Consummate professional, and motivated leader,
-					with solid interpersonal abilities and complex problem-solving skills.
-					Effective and proven track record of critical thinking, idea
-					generation, and optimizing efficiencies.
+					I&rsquo;m a developer with a BS in computer engineering who
+					appreciates clean code, teamwork, and collaboration. I&rsquo;ve worked
+					on Front-end and Full-Stack projects using a variety of frameworks,
+					languages, and technologies. Working with developers from five
+					different time zones has enabled me to exhibit my competence in remote
+					collaboration and pair programming. I&rsquo;ve created over 25
+					projects utilizing various technologies such as JavaScript,
+					Typescript, React, Redux.js, Node.js, Ruby on Rails, PostgreSQL, and
+					others.
 				</p>
 				{/* Skills */}
 				<div className='flex flex-col justify-start py-4'>
@@ -136,7 +136,19 @@ const resume = () => {
 						<span className='font-bold'>Microverse</span>
 						<span className='px-2'>|</span> Remote
 					</p>
-					<p className='py-1 italic'>Mentor (Volunteer) (Feb 2022 - Present)</p>
+					<p className='py-1 underline'>
+						Student Project Reviewer (Aug 2022 - Present)
+					</p>
+					<ul className='list-disc list-outside px-7 py-1 mb-2 leading-relaxed'>
+						<li>
+							Provided high-quality, consistent, and timely reviews to ensure
+							the quality of professional projects of junior developers.
+						</li>
+						<li>Assisted junior developers via Zoom and Slack.</li>
+					</ul>
+					<p className='py-1 underline'>
+						Mentor (Volunteer) (Feb 2022 - Present)
+					</p>
 					<ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
 						<li>
 							Mentored junior web developers, providing technical support
@@ -152,30 +164,65 @@ const resume = () => {
 						</li>
 					</ul>
 				</div>
+				<div className='py-6'>
+					<p>
+						<span className='font-bold'>SimplaTec IT Solutions PLC</span>
+						<span className='px-2'>|</span>Addis Ababa, Ethiopia
+					</p>
+					<p className='py-1 underline'>
+						{' '}
+						Junior Front-end Developer (Mar 2020 - Feb 2022)
+					</p>
+					<ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
+						<li>
+							Developed production-ready, cross-browser, and responsive
+							websites.
+						</li>
+						<li>
+							Collaborated with other developers to fix bugs in existing code
+							and add features as needed.
+						</li>
+						<li>
+							Ensured that all code is well documented, reusable, efficient, and
+							followed best practices.
+						</li>
+						<li>
+							Reviewed other developers code and participated in peer code
+							reviews as necessary for the task at hand when prompted.
+						</li>
+						<li>
+							Developed and managed project plans while providing status updates
+							to management.
+						</li>
+					</ul>
+				</div>
+
 				{/* Personal Experience */}
 				<div className='py-6'>
 					<p>
 						<span className='font-bold'>MELES ZENAWI FOUNDATION</span>
 						<span className='px-2'>|</span>Addis Ababa, Ethiopia
 					</p>
-					<p className='py-1'>Course Instructor (Jul 2018 - Aug 2019)</p>
+					<p className='py-1 underline'>
+						Course Instructor (Jul 2018 - Aug 2019)
+					</p>
 					<ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
 						<li>
-							Instructed high school students about algorithms and computer
-							science.
+							Instructed algorithms and fundamentals of computer science to high
+							school students.
 						</li>
 						<li>
-							Created awareness about computer programing, and built good
-							teamwork and communication skills.
+							Raised awareness of computer programming, as well as teamwork and
+							communication skill.
 						</li>
 						<li>
-							Helped students build simple programming challenges, which
-							improved my problem-solving skills.
+							Assisted students in solving easy programming problems, which
+							boosted my problem-solving s Instructed high school students about
+							algorithms and computer science.
 						</li>
 					</ul>
 				</div>
 				{/*  */}
-
 				{/* Education  */}
 				<h5 className='text-center underline text-[18px] py-4'>EDUCATION</h5>
 				{/* Experience */}
@@ -184,7 +231,7 @@ const resume = () => {
 						<span className='font-bold'>Microverse</span>
 						<span className='px-2'>|</span> Remote
 					</p>
-					<p className='py-1'>
+					<p className='py-1 underline'>
 						Remote Full-stack Web Development Program, Full Time (Jan 2022 - Sep
 						2022)
 					</p>
@@ -210,7 +257,7 @@ const resume = () => {
 						<span className='font-bold'>Addis Ababa University</span>
 						<span className='px-2'>|</span> Remote
 					</p>
-					<p className='py-1'>
+					<p className='py-1 underline'>
 						BSc, Electrical and Computer Engineering (Sep 2015 - Dec 2020)
 					</p>
 					<ul className='list-disc list-outside px-7 py-1 leading-relaxed'>

@@ -7,6 +7,10 @@ import spacetravelersImg from '../public/assets/projects/spacetravelers.png';
 import bookstoreImg from '../public/assets/projects/bookstore.png';
 import mentorbookingImg from '../public/assets/projects/mentorbooking.png';
 import recipeImg from '../public/assets/projects/recipe.png';
+import mynotesImg from '../public/assets/projects/mynote2.png';
+import tizitachinImg from '../public/assets/projects/tizitachin.png';
+import mydriveImg from '../public/assets/projects/mydrive.png';
+
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {
@@ -55,6 +59,27 @@ const Projects = () => {
 						backgroundImg={recipeImg}
 						projectUrl='/recipe'
 						tech='Ruby on Rails'
+					/>
+
+					<ProjectItem
+						title='MyNotes App'
+						backgroundImg={mynotesImg}
+						projectUrl='/mynote'
+						tech='React JS / TypeScript'
+					/>
+
+					<ProjectItem
+						title='Tizitachin App'
+						backgroundImg={tizitachinImg}
+						projectUrl='/tizitachin'
+						tech='Express JS / MongoDB / React JS'
+					/>
+
+					<ProjectItem
+						title='MyDrive App'
+						backgroundImg={mydriveImg}
+						projectUrl='/mydrive'
+						tech='React JS / Firebase'
 					/>
 				</div>
 			</div>
