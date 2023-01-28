@@ -3,81 +3,61 @@ import Link from 'next/link';
 
 const About = () => {
 	return (
-		<div id='about'>
-			<div className='w-full flex flex-col items-center mt-[7rem]'>
-				<h2 className='text-center uppercase text-xl tracking-widest text-[#5651e5]'>
-					About
-				</h2>
-				<h2 className='text-center py-4'>Who I Am</h2>
-				<div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
-					<div className='col-span-2'>
-						<p className='py-2 text-gray-600'>
-							I&rsquo;m a developer with a BS in computer engineering who
-							appreciates clean code, teamwork, and collaboration. I&rsquo;ve
-							worked on Front-end and Full-Stack projects using a variety of
-							frameworks, languages, and technologies. Working with developers
-							from five different time zones has enabled me to exhibit my
-							competence in remote collaboration and pair programming.
+		<div id='about' className='p-8'>
+			<div className='w-full flex flex-row justify-between mt-[7rem]'>
+				<div className='px-[7rem] py-[3rem]  w-[40%]'>
+					<h2 className='uppercase text-xl tracking-widest text-[#5651e5] '>
+						Any Type of Question and Discussion.
+					</h2>
+					<h3 className='my-2 text-lg'>
+						Lets Talk
+						<div className='inline-block border-red-500 border-b-2 w-40 '></div>
+					</h3>
+
+					<h3 className='text-red-500 font-bold my-2'>
+						mekonnen.zelalem251@gmail.com
+					</h3>
+
+					<a href='tel:+25192456 527' className='text-red-500 font-bold'>
+						Phone : +251 924 56 15 27
+					</a>
+				</div>
+
+				<div className='pl-[1rem]  w-[50%]'>
+					<h2 className='pl-2 uppercase text-[2rem] tracking-widest text-[#5651e5]'>
+						About Me
+					</h2>
+
+					<ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
+						<li className='py-2 text-gray-600'>
+							I&rsquo;m a professional Full-stack Ruby on Rails/NodeJs/React
+							developer.
+						</li>
+						<li>I have a BS in computer engineering </li>
+						<li>I appreciates clean code, teamwork, and collaboration.</li>
+						<li>
+							I&rsquo;ve worked on Front-end and Full-Stack projects using a
+							variety of frameworks, languages, and technologies.
+						</li>
+						Working with developers from five different time zones has enabled
+						me to exhibit my competence in remote collaboration and pair
+						programming.{' '}
+						<li>
 							I&rsquo;ve created over 25 projects utilizing various technologies
 							such as JavaScript, Typescript, React, Redux.js, Node.js, Ruby on
 							Rails, PostgreSQL, and others.
-						</p>
-
-						<h3> Some of My Achievements : </h3>
-						<ul className=' list-outside px-7 py-1 leading-relaxed list-none'>
-							<li>
-								✔ Developed more than 25 Front-end and Full-stack projects.
-							</li>
-							<li>
-								✔ Mentored junior developers and helped them not feel
-								overwhelmed throughout the first several weeks of their careers.
-							</li>
-							<li>
-								✔ Completed multiple group projects in a short amount of time,
-								even ahead of schedule.
-							</li>
-							<li>
-								✔ Spent over 1300 hours remotely learning algorithms, data
-								structure, and building real-world projects with developers from
-								different time zones.
-							</li>
-							<li>
-								✔ Completed my bachelor&rsquo;s degree in a highly stressful
-								environment with good grades.
-							</li>
-							<li>
-								✔ Raised awareness of computer programming, teamwork, and
-								communication skill in my community.
-							</li>
-							<li>
-								✔ Assisted students in solving programming challenges, which
-								boosted my problem-solving skill.
-							</li>
-
-							<li>
-								If Are you looking for a motivated, trustworthy, and flexible
-								software engineer? If so, please shoot me an email at
-								<a
-									className='text-[blue] underline inline-block pl-1'
-									href='mailto:mekonnen.zelalem251@gmail.com'
-								>
-									mekonnen.zelalem251@gmail.com
-								</a>{' '}
-								and we will set up a 10-30 minute Zoom meeting.
-							</li>
-						</ul>
-						{/* <Link href='/#projects'>
-						<p className='py-2 text-gray-600 underline cursor-pointer'>
-							Check out some of my latest projects.
-						</p>
-					</Link> */}
-					</div>
-					<div className='w-full h-auto m-auto mt-0 shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
-						<img
-							src='https://cr-ss-service.azurewebsites.net/api/ScreenShot?widget=summary&username=zmekonnen251&badges=3&show-avatar=true&style=--header-bg-color:%23000;--border-radius:10px;--avatar-size:130px'
-							alt='zmekonnen251'
-						/>
-					</div>
+						</li>
+						<div className='my-4'>
+							<a
+								className='px-3 py-2 bg-red-500 text-yellow-50'
+								href='https://docs.google.com/document/d/13j_abcO1v8gP0BuQOZZAj_qYlhWSK0vlvRxSG_YPYkc/edit?usp=sharing'
+								target='_blank'
+								rel='noopener noreferrer'
+							>
+								Get My Resume
+							</a>
+						</div>
+					</ul>
 				</div>
 			</div>
 		</div>
