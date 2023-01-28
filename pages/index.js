@@ -7,7 +7,7 @@ import Skills from '../components/Skills';
 
 export default function Home() {
 	return (
-		<div>
+		<div className='flex flex-col '>
 			<Head>
 				<title>Zelalem | Full-Stack Developer</title>
 				<meta
