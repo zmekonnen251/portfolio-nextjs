@@ -1,10 +1,10 @@
 import Image from 'next/image';
 import React from 'react';
-import tibebImg from '../public/assets/projects/tibeb.png';
+import recipeImg from '../public/assets/projects/recipe.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
-const tibeb = () => {
+const Recipe = () => {
 	return (
 		<div className='w-full'>
 			<div className='w-screen h-[50vh] relative'>
@@ -13,12 +13,12 @@ const tibeb = () => {
 					className='absolute z-1'
 					layout='fill'
 					objectFit='cover'
-					src={tibebImg}
+					src={recipeImg}
 					alt='/'
 				/>
 				<div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-					<h2 className='py-2'>Tibe Front-end Bootcamp Landing page</h2>
-					<h3>HTML / CSS / JavaScript</h3>
+					<h2 className='py-2'>Recipe App</h2>
+					<h3>Ruby on Rails / postgreSql / Bootstrap / CSS</h3>
 				</div>
 			</div>
 
@@ -27,23 +27,22 @@ const tibeb = () => {
 					<p>Project</p>
 					<h2>Overview</h2>
 					<p>
-						The project is a capstone project for Module-1(portal). I customized
-						the design to a Bootcamp website called Tibeb Front-End BootCamp.
-						The name &quot;Tibeb&quot; is an Amharic word and it means wisdom. I
-						used it as an opportunity to practice the skills that I got in the
-						last four weeks. since the capstone project mimics the real-world
-						scenario it helped me a lot to know what the real-world projects
-						will be.
+						The Recipe app keeps track of all your recipes, ingredients, and
+						inventory. It will allow you to save ingredients, keep track of what
+						you have, create recipes, and generate a shopping list based on what
+						you have and what you are missing from a recipe. Also, since sharing
+						recipes is an important part of cooking the app should allow you to
+						make them public so anyone can access them.
 					</p>
 					<a
-						href='https://github.com/zmekonnen251/Tibeb-FrontEnd-Bootcamp'
+						href='https://github.com/zmekonnen251/Recipe-app'
 						target='_blank'
 						rel='noreferrer'
 					>
 						<button className='px-8 py-2 mt-4 mr-8'>Code</button>
 					</a>
 					<a
-						href='https://zmekonnen251.github.io/Tibeb-FrontEnd-Bootcamp/src//'
+						href='https://my-recipe-app1.fly.dev/'
 						target='_blank'
 						rel='noreferrer'
 					>
@@ -55,13 +54,19 @@ const tibeb = () => {
 						<p className='text-center font-bold pb-2'>Technologies</p>
 						<div className='grid grid-cols-3 md:grid-cols-1'>
 							<p className='text-gray-600 py-2 flex items-center'>
-								<RiRadioButtonFill className='pr-1' /> HTML
+								<RiRadioButtonFill className='pr-1' /> Ruby on Rails
+							</p>
+							<p className='text-gray-600 py-2 flex items-center'>
+								<RiRadioButtonFill className='pr-1' /> Ruby
+							</p>
+							<p className='text-gray-600 py-2 flex items-center'>
+								<RiRadioButtonFill className='pr-1' /> Bootstrap
+							</p>
+							<p className='text-gray-600 py-2 flex items-center'>
+								<RiRadioButtonFill className='pr-1' /> postgreSql
 							</p>
 							<p className='text-gray-600 py-2 flex items-center'>
 								<RiRadioButtonFill className='pr-1' /> CSS
-							</p>
-							<p className='text-gray-600 py-2 flex items-center'>
-								<RiRadioButtonFill className='pr-1' /> Javascript
 							</p>
 							<p className='text-gray-600 py-2 flex items-center'>
 								<RiRadioButtonFill className='pr-1' /> GitHub
@@ -77,4 +82,4 @@ const tibeb = () => {
 	);
 };
 
-export default tibeb;
+export default Recipe;

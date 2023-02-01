@@ -1,10 +1,10 @@
 import Image from 'next/image';
 import React from 'react';
-import tibebImg from '../public/assets/projects/tibeb.png';
+import tizitachinImg from '../public/assets/projects/tizitachin.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
-const tibeb = () => {
+const myNote = () => {
 	return (
 		<div className='w-full'>
 			<div className='w-screen h-[50vh] relative'>
@@ -13,12 +13,12 @@ const tibeb = () => {
 					className='absolute z-1'
 					layout='fill'
 					objectFit='cover'
-					src={tibebImg}
+					src={tizitachinImg}
 					alt='/'
 				/>
 				<div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-					<h2 className='py-2'>Tibe Front-end Bootcamp Landing page</h2>
-					<h3>HTML / CSS / JavaScript</h3>
+					<h2 className='py-2'>MyNotes App</h2>
+					<h3>ExpressJs / Node / MongoDB / Material Ui / React JS </h3>
 				</div>
 			</div>
 
@@ -27,27 +27,28 @@ const tibeb = () => {
 					<p>Project</p>
 					<h2>Overview</h2>
 					<p>
-						The project is a capstone project for Module-1(portal). I customized
-						the design to a Bootcamp website called Tibeb Front-End BootCamp.
-						The name &quot;Tibeb&quot; is an Amharic word and it means wisdom. I
-						used it as an opportunity to practice the skills that I got in the
-						last four weeks. since the capstone project mimics the real-world
-						scenario it helped me a lot to know what the real-world projects
-						will be.
+						Tizitachin Social App is a full-stack Express/React app that users
+						shares their memories with other users. a user can create ,edit and
+						delete his/her posts. a user also can like,comment others post. the
+						app has a search functionaliy. any user can see posts and search
+						using post title or tags. a user can signin using google or can
+						register using his email and after verifying his/her email can
+						login. I built this application using ExpressJs ,React,JavaScript
+						and Material-UI.
 					</p>
 					<a
-						href='https://github.com/zmekonnen251/Tibeb-FrontEnd-Bootcamp'
+						href='https://tizitachin-api.onrender.com/'
 						target='_blank'
 						rel='noreferrer'
 					>
-						<button className='px-8 py-2 mt-4 mr-8'>Code</button>
+						<button className='px-8 py-2 mt-4 mr-8'>Demo</button>
 					</a>
 					<a
-						href='https://zmekonnen251.github.io/Tibeb-FrontEnd-Bootcamp/src//'
+						href='https://github.com/zmekonnen251/tizitachin-app'
 						target='_blank'
 						rel='noreferrer'
 					>
-						<button className='px-8 py-2 mt-4'>Demo</button>
+						<button className='px-8 py-2 mt-4'>Code</button>
 					</a>
 				</div>
 				<div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4'>
@@ -55,13 +56,17 @@ const tibeb = () => {
 						<p className='text-center font-bold pb-2'>Technologies</p>
 						<div className='grid grid-cols-3 md:grid-cols-1'>
 							<p className='text-gray-600 py-2 flex items-center'>
-								<RiRadioButtonFill className='pr-1' /> HTML
+								<RiRadioButtonFill className='pr-1' /> Express JS
 							</p>
 							<p className='text-gray-600 py-2 flex items-center'>
-								<RiRadioButtonFill className='pr-1' /> CSS
+								<RiRadioButtonFill className='pr-1' /> React JS
 							</p>
 							<p className='text-gray-600 py-2 flex items-center'>
-								<RiRadioButtonFill className='pr-1' /> Javascript
+								<RiRadioButtonFill className='pr-1' /> JavaScript
+							</p>
+
+							<p className='text-gray-600 py-2 flex items-center'>
+								<RiRadioButtonFill className='pr-1' /> Material UI
 							</p>
 							<p className='text-gray-600 py-2 flex items-center'>
 								<RiRadioButtonFill className='pr-1' /> GitHub
@@ -77,4 +82,4 @@ const tibeb = () => {
 	);
 };
 
-export default tibeb;
+export default myNote;
